@@ -1,0 +1,34 @@
+body{
+    background-color: #00cdcc;
+}
+.container{
+    display:flex;
+    flex-direction:column;
+    height:100vh;
+    
+}
+
+.container-table{
+    display:grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr 1fr 1fr;
+    grid-template-rows: 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr;
+    border: 2px solid black;
+    border-right: 0;
+    border-bottom: 0;
+    height:100vh;
+}
+
+.col{
+    width:auto;
+    height: auto;
+    border-bottom:2px solid black;
+    border-right:2px solid black;
+}
+
+.row{
+    width:auto;
+    height: auto;
+    border-right:2px solid black;
+    border-bottom:2px solid black;
+}
+

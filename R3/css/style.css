@@ -1,0 +1,41 @@
+/*Estilo del contenido: Video, título y párrafo*/
+.content{
+    display:grid;
+    grid-template-columns: 100%;
+    grid-template-rows: 40% 60%;
+}
+.video-container{
+  width: 100%;
+  position: relative;
+  display:flex;
+  justify-content: center;
+  align-self: center;   
+}
+
+
+.icon-reproducir {
+  align-self: center;
+  position:absolute;
+  z-index:1;
+  text-align:center;
+  font-size: 100px;
+}
+
+
+video{
+    width: 100%;
+    height:100%;
+}
+
+
+
+.title{
+    margin-top: 2rem;
+    margin-bottom: 2rem;
+}
+
+.text-container{
+  margin-left: 1.5em;
+  margin-right: 1.5em;
+  align-self: center;
+}
